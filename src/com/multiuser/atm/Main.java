@@ -1,5 +1,6 @@
 package com.multiuser.atm;
 
+import java.util.Optional;
 import java.sql.Connection;
 import java.sql.Statement;
 
@@ -30,7 +31,5 @@ public class Main {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        // continue with your normal app startup here...
     }
 }
